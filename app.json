@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MediRecuerda",
+    "slug": "medirecuerda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.medirecuerda.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1F6FB2"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#1F6FB2"
+        }
+      ]
+    ]
+  }
+}
